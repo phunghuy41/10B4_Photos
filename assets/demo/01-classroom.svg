@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 480" role="img" aria-label="Illustrative film-style memory placeholder">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b8b29a"/><stop offset="1" stop-color="#536a68"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#f6e2b7" stop-opacity=".7"/><stop offset="1" stop-color="#f6e2b7" stop-opacity="0"/></radialGradient>
+ <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .16"/></feComponentTransfer><feBlend in="SourceGraphic" mode="soft-light"/></filter>
+</defs>
+<rect width="500" height="480" fill="url(#bg)"/><ellipse cx="370" cy="75" rx="190" ry="150" fill="url(#glow)"/>
+<rect x="85" y="70" width="310" height="205" rx="4" fill="#d7d0b9" opacity=".9"/><path d="M240 70v205M85 172h310" stroke="#6a7771" stroke-width="9"/><rect x="108" y="91" width="110" height="62" fill="#e8d9b5"/><rect x="260" y="91" width="110" height="62" fill="#a9c2b5"/><path d="M50 370h390l-45-70H95z" fill="#485c5d"/><path d="M170 300v85m150-85v85" stroke="#d2b991" stroke-width="9"/>
+<rect width="500" height="480" fill="#263b3d" opacity=".13"/><rect width="500" height="480" filter="url(#grain)" opacity=".35"/>
+<rect x="15" y="15" width="470" height="450" fill="none" stroke="#f3e5c9" stroke-opacity=".42" stroke-width="1"/>
+</svg>
